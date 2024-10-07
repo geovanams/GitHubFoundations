@@ -27,15 +27,15 @@ A atividade a seguir visa consolidar o conhecimento apresentado na aula, abordan
      
 ![image](https://github.com/user-attachments/assets/dc823f19-f554-47f1-9564-54f8e32e00bc)
 
+**Observação:** Repare que na imagem não existe a opção “Internal”, isso ocorre pois tal opção está disponível apenas nas contas Enterprise. 
+
 -  Avançando na página temos a seção “Initialize this repository with”, nela, trabalhamos itens como os arquivos README e .gitignore e o licenciamento. Nessa etapa:
 - 	Marque a caixa de seleção “Add a README file”
 - 	Selecione a opção “None” na lista suspensa de GitIgnore
 - 	Selecione a opção MIT License na lista suspensa de licenças
-- 	
+   
 ![image](https://github.com/user-attachments/assets/4b44303e-8a02-4dee-8ed0-52508956a584)
 
-
-**Observação:** Repare que na Figura 2 não existe a opção “Internal”, isso ocorre pois tal opção está disponível apenas nas contas Enterprise. 
 
 4. Clique em “Create Repository”
 
@@ -64,17 +64,15 @@ Ou acesse github.com, e busque pelo nome do seu repositório no campo de buscas 
 
 ![image](https://github.com/user-attachments/assets/0e1f02ef-9708-44d9-bb98-586b288bb219)
 
-Figura 5 - Captura da tela para upload de arquivos
-
 3. Na sequência, adicione informações pertinentes na seção “Commit Changes”, nos campos abaixo:
    - Resumo de commit
    - Descrição extendida de commit
 
 ![image](https://github.com/user-attachments/assets/c5084d3c-b5a5-4faa-af65-df114584d0d3)
 
-4. Abaixo dos campos, devemos escolher se o commit será direto na branch “main” ou se haverá a criação de uma nova branch para esse commit. Escolha pela criação de uma nova branch e dê um nome adequado (informações sobre o passo 4 na Figura 6)
+4. Abaixo dos campos, devemos escolher se o commit será direto na branch “main” ou se haverá a criação de uma nova branch para esse commit. Escolha pela criação de uma nova branch e dê um nome adequado
 
-**Observação:** Essa ação, além de criar uma nova branch com o arquivo selecionado, criará também um pull request, não abordaremos em detalhes qual o impacto da criação de um pull request. Por ora, vamos focar apenas que estamos adicionando um arquivo e criando uma nova branch ao mesmo tempo no nosso repositório.
+> Essa ação, além de criar uma nova branch com o arquivo selecionado, criará também um pull request, não abordaremos em detalhes qual o impacto da criação de um pull request. Por ora, vamos focar apenas que estamos adicionando um arquivo e criando uma nova branch ao mesmo tempo no nosso repositório.
 
 5. A tela que temos agora é de abertura de um pull request. Adicione um título e uma descrição
 
@@ -99,7 +97,7 @@ Explore essa possibilidade, acesse a página inicial, clique no link de branches
 - Um repositório criado no github.com
 - Software Git Bash já instalado ([Download aqui](https://git-scm.com/downloads))
 
-**Observação:** Substitua os termos entre “<>” que estarão presentes nas instruções abaixo pelas informações do seu repositório/caso.
+> Substitua os termos entre “<>” que estarão presentes nas instruções abaixo pelas informações do seu repositório/caso.
 
 Diversas vezes vamos nos referir a `<proprietario>` e `<nomeRepositorio>`, essas informações podem ser obtidas na url do seu repositório, conforme imagem abaixo:
 
@@ -137,17 +135,16 @@ Nesta etapa, clonaremos um repositório. A essência da clonagem de repositório
 
 ![image](https://github.com/user-attachments/assets/fecd428c-b949-4cc3-96a5-d9e794b0054a)
 
-A tela que abrirá será semelhante a Figura 13, a seguir, mas o conteúdo em verde serão as informações relativas à sua própria máquina:
+A tela que abrirá será semelhante a imagem a seguir, mas o conteúdo em verde serão as informações relativas à sua própria máquina:
 
 ![image](https://github.com/user-attachments/assets/9e2412ef-e01a-4a31-a465-08213976ff79)
 
-5. Com o terminal aberto, execute o comando a seguir para acessar a pasta criada anteriormente. Vide Figura 14
-
+5. Com o terminal aberto, execute o comando a seguir para acessar a pasta criada anteriormente. 
 ```sh
-cd "<endereçoPasta>
+cd "<endereçoPasta>"
 ```
 
-**Dica:** O endereço da pasta estará na área de transferência, pois foi copiado no passo 2. Então basta digitar cd e abrir aspas duplas, control+v e fechar aspas duplas
+> O endereço da pasta estará na área de transferência, pois foi copiado no passo 2. Então basta digitar cd e abrir aspas duplas, control+v e fechar aspas duplas
 
 Captura de tela do terminal com o comando: cd 
 
@@ -163,10 +160,10 @@ Captura de tela do terminal com o comando: cd
  7. Execute o comando:
       
 ```sh
-      git clone <linkCopiado>
+git clone <linkCopiado>
 ```
 
-**Dica:** O link copiado já está na área de transferência, digite o comando git clone, depois control + v e depois enter
+> O link copiado já está na área de transferência, digite o comando git clone, depois control + v e depois enter
 
 Imagem mostrando o comando: "git clone https://github.com/jovisisa/gh4w.git" e sua resposta: "Cloning into 'gh4w'... remote: Enumerating objects: 19, done. remote: Counting objects: 100% (19/19), done. remote: Compressing objects: 100% (15/15), done. remote: Total 19 (delta 2), reused 3 (delta 0), pack-reused 0 Receiving objects: 100% (19/19), 7.85 KiB | 2.62 MiB/s, done. Resolving deltas: 100% (2/2), done."
 
@@ -188,11 +185,11 @@ Figura 17 - Pasta local com o clone feito
 cd <nomeRepositorio>
 ```
 
-> Informação: O comando acima nos levará até nosso repositório git local, que é o nosso repositório clonado. Perceba que o terminal indicará que agora estamos no nosso repositório e na branch “main”
+> O comando acima nos levará até nosso repositório git local, que é o nosso repositório clonado. Perceba que o terminal indicará que agora estamos no nosso repositório e na branch “main”
 
 2. Como boa prática, não devemos fazer alterações direto na “main”, execute o comando a seguir para criar uma nova branch:  git checkout -b <nomeBranchNova>
 
-> Informação: O comando acima realiza a criação da nova branch e já nos coloca nessa nova branch, ou seja, as alterações feitas nos passos seguintes estarão nesse escopo.
+> O comando acima realiza a criação da nova branch e já nos coloca nessa nova branch, ou seja, as alterações feitas nos passos seguintes estarão nesse escopo.
 
 Captura de tela do terminal mostrando o comando: "$ git checkout -b BranchExemplo", a resposta: "Switched to a new branch 'BranchExemplo'" e a indicação da nossa nova localização: "REDMOND+joasantos@DESKTOP-GV71ASL MINGW64 ~/Documents/gh4w/gh4w (BranchExemplo)"
 
@@ -212,7 +209,7 @@ touch <nomeDoArquivo>
 git add .
 ```
 
-> Informação: Utilizando o “.” aplicaremos o comando add a todos os arquivos da pasta, para selecionar arquivos específicos basta substituir o “.” pelo nome dos arquivos com suas extensões, exemplo: git add arquivo1.txt arquivo2.js
+> Utilizando o “.” aplicaremos o comando add a todos os arquivos da pasta, para selecionar arquivos específicos basta substituir o “.” pelo nome dos arquivos com suas extensões, exemplo: git add arquivo1.txt arquivo2.js
 
 ![image](https://github.com/user-attachments/assets/bde97fb0-aae2-4f9a-b956-97daa0774967)
 
@@ -228,12 +225,17 @@ Perceba que o Git Bash detectará as alterações feitas e apontará que houve u
 
 ![image](https://github.com/user-attachments/assets/51b20a7c-6731-41c7-b6bf-8063372f1b20)
 
-6. Na sequência, execute o comando: git push --set-upstream origin <nomeBranchNova>
-Imagem mostrando o comando: "$ git push --set-upstream origin BranchExemplo" e sua resposta: " Enumerating objects: 6, done. Counting objects: 100% (6/6), done. Delta compression using up to 8 threads Compressing objects: 100% (4/4), done. Writing objects: 100% (5/5), 635 bytes | 635.00 KiB/s, done. Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0) remote: Resolving deltas: 100% (1/1), done. remote: remote: Create a pull request for 'BranchExemplo' on GitHub by visiting: remote:      https://github.com/jovisisa/gh4w/pull/new/BranchExemplo remote: To https://github.com/jovisisa/gh4w.git * [new branch]      BranchExemplo -> BranchExemplo branch 'BranchExemplo' set up to track 'origin/BranchExemplo'."
+6. Na sequência, execute o comando:
+
+```sh
+git push --set-upstream origin <nomeBranchNova>
+```
+
+> Imagem mostrando o comando: "$ git push --set-upstream origin BranchExemplo" e sua resposta: " Enumerating objects: 6, done. Counting objects: 100% (6/6), done. Delta compression using up to 8 threads Compressing objects: 100% (4/4), done. Writing objects: 100% (5/5), 635 bytes | 635.00 KiB/s, done. Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0) remote: Resolving deltas: 100% (1/1), done. remote: remote: Create a pull request for 'BranchExemplo' on GitHub by visiting: remote:      https://github.com/jovisisa/gh4w/pull/new/BranchExemplo remote: To https://github.com/jovisisa/gh4w.git * [new branch]      BranchExemplo -> BranchExemplo branch 'BranchExemplo' set up to track 'origin/BranchExemplo'."
 
 ![image](https://github.com/user-attachments/assets/e63eae22-1efb-47ee-92fa-54aa74b6817e)
 
-> Informação: Note que o resultado até aqui é um pouco diferente da inserção de arquivos através da interface do GitHub, visto que não há uma criação automática de um pull request. Conforme já é sinalizado na resposta, que nos orienta a criar um pull request diretamente na interface do GitHub.
+> Note que o resultado até aqui é um pouco diferente da inserção de arquivos através da interface do GitHub, visto que não há uma criação automática de um pull request. Conforme já é sinalizado na resposta, que nos orienta a criar um pull request diretamente na interface do GitHub.
 
 7. Acesse a página do seu repositório no navegador. Você receberá a indicação através de um banner de que ocorreram “pushes” na branch que foi criada no terminal, conforme a figura abaixo:  
 
@@ -241,7 +243,7 @@ Captura de tela da página inicial do repositório no GitHub, onde existe um ban
 
 ![image](https://github.com/user-attachments/assets/a700b061-1919-4070-bcb3-c4b15782b485)
 
-Conforme mencionado anteriormente, o foco nesta atividade não são os pull requests, isso será abordado mais a frente no curso. Com isso encerramos o passo-a-passo. 
+Conforme mencionado anteriormente, o foco nesta atividade não são os pull requests, isso será abordado na próxima aula. Com isso encerramos a atividade. 🙂
 
 Como sugestão final, busque explorar desafios mais complexos, como a edição de arquivos, como o README e o commit desses arquivos para suas branches originais ou novas branches. 
 
