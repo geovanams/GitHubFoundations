@@ -27,7 +27,7 @@ A atividade a seguir visa consolidar o conhecimento apresentado na aula, abordan
      
 ![image](https://github.com/user-attachments/assets/dc823f19-f554-47f1-9564-54f8e32e00bc)
 
-**Observação:** Repare que na imagem não existe a opção “Internal”, isso ocorre pois tal opção está disponível apenas nas contas Enterprise. 
+> Repare que na imagem não existe a opção “Internal”, isso ocorre pois tal opção está disponível apenas nas contas Enterprise. 
 
 -  Avançando na página temos a seção “Initialize this repository with”, nela, trabalhamos itens como os arquivos README e .gitignore e o licenciamento. Nessa etapa:
 - 	Marque a caixa de seleção “Add a README file”
@@ -129,11 +129,13 @@ Nesta etapa, clonaremos um repositório. A essência da clonagem de repositório
 
 ![image](https://github.com/user-attachments/assets/4c342d3c-350b-41ec-864f-3581ce004486)
 
-4. Abra o Git Bash ou outro terminal
+4. Abra o Git Bash
    - Depois da instalação, vá até o menu iniciar e busque por Git Bash
    - Selecione Git Bash na lista de resultados, conforme figura abaixo:
 
 ![image](https://github.com/user-attachments/assets/fecd428c-b949-4cc3-96a5-d9e794b0054a)
+
+> Aqui estamos usando o git bash, porém você pode usar outro terminal como powershell ou cmd
 
 A tela que abrirá será semelhante a imagem a seguir, mas o conteúdo em verde serão as informações relativas à sua própria máquina:
 
@@ -187,7 +189,11 @@ cd <nomeRepositorio>
 
 > O comando acima nos levará até nosso repositório git local, que é o nosso repositório clonado. Perceba que o terminal indicará que agora estamos no nosso repositório e na branch “main”
 
-2. Como boa prática, não devemos fazer alterações direto na “main”, execute o comando a seguir para criar uma nova branch:  git checkout -b <nomeBranchNova>
+2. Como boa prática, não devemos fazer alterações direto na “main”, execute o comando a seguir para criar uma nova branch:
+   
+```sh
+ git checkout -b <nomeBranchNova>
+```
 
 > O comando acima realiza a criação da nova branch e já nos coloca nessa nova branch, ou seja, as alterações feitas nos passos seguintes estarão nesse escopo.
 
@@ -201,7 +207,7 @@ Captura de tela do terminal mostrando o comando: "$ git checkout -b BranchExempl
 touch <nomeDoArquivo>
 ```
 
-> Informação: Como exemplo, o nome do arquivo será “meu_novo_arquivo.txt”. Esse comando adicionará esse arquivo (que é um .txt vazio) ao meu repositório na branch “BranchExemplo”
+> Como exemplo, o nome do arquivo será “meu_novo_arquivo.txt”. Esse comando adicionará esse arquivo (que é um .txt vazio) ao meu repositório na branch “BranchExemplo”
 
 4. Agora execute o comando:
 
