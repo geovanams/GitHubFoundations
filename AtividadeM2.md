@@ -55,8 +55,6 @@ Nesta etapa, adicionaremos novos arquivos, para isso abordaremos de duas maneira
 
 `github.com/<proprietario>/<nomeRepositorio>`
 
-Ou acesse github.com, e busque pelo nome do seu repositório no campo de buscas denominado “Find a repository”
-
 ![image](https://github.com/user-attachments/assets/87559e91-9988-465e-a135-c2b6bc715613)
 
 
@@ -95,7 +93,7 @@ Explore essa possibilidade, acesse a página inicial, clique no link de branches
 #### Requisitos:
 
 - Um repositório criado no github.com
-- Software Git Bash já instalado ([Download aqui](https://git-scm.com/downloads))
+- Software Git Bash já instalado ([Download aqui](https://git-scm.com/downloads)) ou outro terminal de sua escolha
 
 > Substitua os termos entre “<>” que estarão presentes nas instruções abaixo pelas informações do seu repositório/caso.
 
@@ -177,8 +175,7 @@ A pasta que criamos no passo 1 agora deve conter uma pasta, que é o nosso repos
 
 Pasta local com os arquivos clonados do repositório remoto. Perceba que dentro da pasta criada em Documentos, a ação de clone gera uma pasta que é o repositório remoto
 
-Figura 17 - Pasta local com o clone feito
-
+![image](https://github.com/user-attachments/assets/7547928c-1475-441b-b10f-a54a594ac6a1)
  
 #### 2.2.2 Adicionando arquivo através de linha de comando  
 
