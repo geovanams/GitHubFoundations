@@ -1,7 +1,7 @@
 # Laboratório – Módulo 4: Modern Development
 
 ## Objetivo
-Esta atividade tem como objetivo praticarem os conceitos básicos do GitHub Codespaces e do GitHub Actions, uma poderosa ferramenta de automação oferecida pelo GitHub para construir, testar e implantar seu código.
+Esta atividade tem como objetivo colocar em prática os conceitos básicos do GitHub Codespaces e do GitHub Actions, uma poderosa ferramenta de automação oferecida pelo GitHub para construir, testar e implantar seu código.
 
 ## Pré- Requisitos:
 - Um repositório no GitHub
@@ -15,7 +15,7 @@ Esta atividade tem como objetivo praticarem os conceitos básicos do GitHub Code
 ![image](https://github.com/user-attachments/assets/dce5b3c4-f22a-4c39-b7b7-22d8effa3348)
 
 4.	Selecione a opção para inicializar o repositório com um arquivo .gitignore e selecione o template do VisualStudio.
-imagem
+
 ![image](https://github.com/user-attachments/assets/24f953c2-f8fe-49d5-b5f7-a8227a732735)
 
 ### 2.	Criar o Código da Aplicação:
@@ -49,7 +49,7 @@ imagem
 
 
 #### 3.	Criar o arquivo de Workflow:
-1.	Crie um arquivo YAML para definir o workflow. Nomeie-o como dotnet-build.yml e salve-o na pasta “.github/workflows” do seu repositório. (precisa estar na raíz do repositório)
+1.	Crie um arquivo YAML para definir o workflow. Nomeie-o como dotnet-build.yml e salve-o na pasta **.github/workflows** do seu repositório. (precisa estar na raíz do repositório)
  
  ![image](https://github.com/user-attachments/assets/96654320-a97a-4501-9e4a-827331a49f24)
 
