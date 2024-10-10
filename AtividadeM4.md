@@ -26,9 +26,10 @@ imagem
      ![image](https://github.com/user-attachments/assets/a414e37c-d3b2-4fe5-bb7e-fe791a8a2300)
 
   2. Selecione a aba "Codespaces"
-    ![image](https://github.com/user-attachments/assets/b72c588e-88e6-46b7-86e2-0231789a2d10)
 
-  3.	Clique no botão “Create codespace on main”.
+   ![image](https://github.com/user-attachments/assets/b72c588e-88e6-46b7-86e2-0231789a2d10)
+
+  4.	Clique no botão “Create codespace on main”.
 
    ![image](https://github.com/user-attachments/assets/dce11fd1-a7d3-417a-b476-f4cb76cc3ecf)
 
