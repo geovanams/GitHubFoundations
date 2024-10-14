@@ -89,7 +89,7 @@
 2. Explore como adicionar membros à organização e atribuir a equipes.
 3. Defina funções para equipes específicas e discuta as permissões associadas a cada função.
 
-## 9. Revisar as opções de 2FA disponíveis.
+## 10. Revisar as opções de 2FA disponíveis
 
 **Objetivo:** Identificar quais métodos estão disponíveis para 2FA.
 
