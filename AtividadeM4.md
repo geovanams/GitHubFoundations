@@ -70,20 +70,19 @@ Esta atividade tem como objetivo colocar em prática os conceitos básicos do Gi
       
       jobs:
         buildapp:
-
-      runs-on: ubuntu-latest
+          runs-on: ubuntu-latest
   
-      steps:
-      - uses: actions/checkout@v4
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 8.0.x
-      - name: Restore dependencies
-        run: dotnet restore **/*.csproj
-        working-directory: ${{ github.workspace }}
-      - name: Build
-        run: dotnet build **/*.csproj
+          steps:
+          - uses: actions/checkout@v4
+          - name: Setup .NET
+            uses: actions/setup-dotnet@v4
+            with:
+              dotnet-version: 8.0.x
+          - name: Restore dependencies
+            run: dotnet restore **/*.csproj
+            working-directory: ${{ github.workspace }}
+          - name: Build
+            run: dotnet build **/*.csproj
   ```
 
 
