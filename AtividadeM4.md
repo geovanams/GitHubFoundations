@@ -6,10 +6,10 @@ Esta atividade tem como objetivo colocar em prática os conceitos básicos do Gi
 ## Pré- Requisitos:
 - Um repositório no GitHub
 
-> Caso ainda não tenha um repositório criado, seguir os passos abaixo de criação de repositório. Caso já tenha um criado, pular para o passo 2.
+> Caso ainda não tenha um repositório criado, seguir os passos abaixo de criação de repositório. **Caso já tenha um criado, pular para o passo 2**.
 
 ### 1. Criar um Repositório no GitHub:
-1.	Crie um repositório no GitHub (assim como vocês fizerem nas atividades anteriores)
+1.	Crie um repositório no GitHub (assim como vocês fizerem nas atividades anteriores caso ainda não tenha um criado)
 2.	Nomeie o repositório como "gh-actions-webapp-seunome"
 3.	Selecione a opção para inicializar o repositório com um arquivo README.md.
 ![image](https://github.com/user-attachments/assets/dce5b3c4-f22a-4c39-b7b7-22d8effa3348)
